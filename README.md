@@ -48,9 +48,35 @@ The model has been evaluated on various metrics, including accuracy, precision, 
 ### Results on Test Set
 ![Results on Testing](https://github.com/xAn-x/Duplicate-Question-Pairs/assets/115899138/27c966d4-b147-4a2e-928d-c41a23293a73)
 
-## Note
+## Update
 
-Despite the resource limitations, this model demonstrates effective duplicate question detection. Further improvements could be achieved with more extensive training data and additional computational resources.
+### New Deep Learning Model - LSTM Networks
+
+I have implemented a new model using deep learning techniques, specifically utilizing Long Short-Term Memory (LSTM) networks. This model achieves an improved accuracy of 77% over all the data. The LSTM's ability to capture sequential dependencies and long-term patterns enhances the model's performance in understanding the semantic similarity between questions.
+
+#### Dataset
+
+The new model has been trained on the same dataset, which contains over 400,000 question pairs from Quora. The training data for the LSTM model includes 50,000 data points.
+
+#### Features and Techniques
+
+- **LSTM Networks**: Utilized for deep learning, providing the model with the ability to understand sequential patterns and dependencies in the data.
+
+#### Model Evaluation
+
+The LSTM model has been evaluated on various metrics, including accuracy, precision, recall, and F1-score. The achieved accuracy of 77% is noteworthy, considering the limited dataset size and computational resources.
+
+#### Results
+- ```Loss```
+  
+![image](https://github.com/xAn-x/Duplicate-Question-Pairs/assets/115899138/9c327e80-be64-4340-9774-abe20a142171)
+
+- ```Accuracy```
+
+![image](https://github.com/xAn-x/Duplicate-Question-Pairs/assets/115899138/70ddb7e2-8603-44f1-8e9e-3fae509d17ee)
+
+
+For more details check the deep-learning Notebook
 
 Feel free to experiment with different parameters, algorithms, or feature engineering techniques to enhance the model's performance.
 
